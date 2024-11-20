@@ -1,0 +1,19 @@
+.realestateIntro{
+    box-sizing: border-box;
+    padding-top: 2vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    margin-bottom: 10px;
+}
+
+.realestateIntro-heading{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.realestateIntro-contentBlocks{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+

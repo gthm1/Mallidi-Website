@@ -1,0 +1,22 @@
+.speak-to-us{
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 9vh;
+}
+
+.the-text h4{
+    margin: 0;
+}
+
+@media (max-width: 768px)
+{
+    .speak-to-us{
+        flex-direction: column;
+    }
+}

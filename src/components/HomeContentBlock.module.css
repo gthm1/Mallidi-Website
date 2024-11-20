@@ -1,0 +1,49 @@
+
+.contentBlock{
+    padding-top: 5vh;
+    
+}
+
+.image{
+    height: 450px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.para{
+    width: 440px;
+    text-align: left;
+    margin-top: -8px;
+}
+
+.button{
+    padding: 10px 20px;
+    font-family: 'Lexend Zetta';
+    background-color: white;
+    color: #D4B46D;
+    border: 2px solid #D4B46D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #D4B46D;
+    color: black;
+}
+
+@media (max-width: 768px){
+    .contentBlock{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .image,
+    .para{
+        width: 100%;
+        height: auto;
+        font-size: small;
+    }
+    .para{
+        text-align: left;
+    }
+}

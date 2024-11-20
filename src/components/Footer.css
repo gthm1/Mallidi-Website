@@ -1,0 +1,82 @@
+html, body{
+    margin:0;
+}
+
+.footer-section{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+.footer-content{
+    padding-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-col{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-col h4{
+    color: #D4B46D;
+    font-size: 16px;
+}
+
+
+.footer-col a, .footer-col p{
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-col form input,
+.footer-col form textarea{
+    font-family: 'Lexend Zetta';
+    font-size: 12px;
+    width: 80%;
+    margin: 5px 0;
+    padding: 8px;
+    border: 2px solid #D4B46D;
+    border-radius: 10px;
+}
+
+.footer-col form button{
+    font-family: 'Lexend Zetta';
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid #D4B46D;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.footer-col form button:hover{
+    background-color: #D4B46D;
+}
+
+
+@media (max-width: 768px){
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .footer-col{
+        padding-top: 30px;
+    }
+
+    .footer-col:last-child {
+        margin-bottom: 60px; /* Adds extra spacing under the last column */
+    }
+
+}

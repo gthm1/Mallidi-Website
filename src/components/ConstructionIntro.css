@@ -1,0 +1,18 @@
+.constructionIntro{
+    box-sizing: border-box;
+    padding-top: 2vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    margin-bottom: 9vh;
+}
+
+.constructionIntro-heading{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.constructionIntro-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
